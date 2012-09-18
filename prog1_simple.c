@@ -11,7 +11,9 @@
 ******************************************************************************/
 
 #include <stdio.h>
+#include <math.h>
 
+#define _USE_MATH_DEFINES
 //create struct named student to hold output info
 struct {
 	char *name; //array of chars to make string
@@ -44,5 +46,5 @@ void print()
 	printf("%s\n",student.name);
 	printf("Major: %s\n",student.major);
 	printf("Class: %s\n",student.year);
-	printf("%s\n",student.classn);
+	printf("%f\n",M_PI);
 }
